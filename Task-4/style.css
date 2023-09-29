@@ -1,0 +1,60 @@
+body{
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+/* background-color: #494D5F;  */
+background-color: #fff;
+/* background-color: #A0D2EB;  */
+/* background-color: #83d0fa; */
+
+}
+
+    .cal{
+        width: 340px;
+        height: 77vh;
+        display: flex;
+        flex-direction: column;
+        margin: 2px auto;
+         background-color: black;
+        border-radius: 8px;
+        }
+        
+        input{
+            width: 75px;
+            height: 75px;
+            margin: 7px auto;
+            position: relative;
+            left: 13px;
+            top: 17px;
+            /* background-color: #A0D2EB;  */
+            background-color: #08a3f4;
+            border-radius: 7px;
+            border: none;
+            font-size: 25px;
+            border: 1px solid black;
+        }
+
+        #scr{
+            width: 310px;
+            position: relative;
+            left: 12px;
+            top: 7px;
+            background-color: #fff;
+        }
+
+        #bt{
+            width: 153px;
+        }
+
+        .color{
+            color: #fff;
+            /* color: black; */
+            font-size: 18px;
+        }
+
+        .size{
+            font-size: 20px;
+            color: #fff;
+            /* color:black; */
+        }
